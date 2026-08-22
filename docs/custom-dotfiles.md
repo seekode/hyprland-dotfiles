@@ -14,3 +14,8 @@
 - follow_mouse: 1
 - accel_profile: "flat"
 - force_no_accel: true
+
+## [dot_config/hypr/custom/keybinds.lua](../dot_config/hypr/custom/keybinds.lua)
+
+**SUPER + CTRL + [num]:** Move window to workspace [num] silently
+**SUPER + SHIFT + [num]:** Move window to workspace [num] and follow
