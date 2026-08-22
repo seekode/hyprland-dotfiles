@@ -10,10 +10,17 @@
 - kb_options: "grp:win_space_toggle,caps:escape"
 
 ---
+
 **Mouse:** *setup for work & gaming*
 - follow_mouse: 1
 - accel_profile: "flat"
 - force_no_accel: true
+
+---
+
+**Screen & workspaces:** *setup screen and bind workspaces*
+Do not forget to adapt these settings to your own configuration.
+You can find what to change at hl.monitor and hl.workspace_rule.
 
 ## [dot_config/hypr/custom/keybinds.lua](../dot_config/hypr/custom/keybinds.lua)
 
