@@ -26,3 +26,17 @@ You can find what to change at hl.monitor and hl.workspace_rule.
 
 **SUPER + CTRL + [num]:** Move window to workspace [num] silently
 **SUPER + SHIFT + [num]:** Move window to workspace [num] and follow
+
+## [dot_config/hypr/custom/execs.lua](../dot_config/hypr/custom/execs.lua)
+
+**Audio setup:** *uncomment it or edit it to match with your audio setup*
+- start goxlr-deamon
+- start easyeffects
+- set default source to easyeffects_source
+
+---
+
+**Background integrations & applications**
+- start kdeconnectd
+- start wayscriber
+- start betterbird
