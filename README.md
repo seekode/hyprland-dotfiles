@@ -21,6 +21,9 @@ chezmoi init --apply [https://github.com/seekode/hyprland-dotfiles.git](https://
 3. **Installs Extra Packages & Defaults:** Ensures additional packages are installed and configures them as default apps. [You can view the list of extra packages here](docs/extra-packages.md).
 
 
+## Things to do after applying the configuration:
+1. **edit screen configuration:** edit [dotfile](dot_config/hypr/custom/general.lua) for make screen settings match your display.
+
 ## 📖 Optional Guides
 - [AI Widget Configuration (Add latest Gemini models)](docs/ai-widget.md)
 
