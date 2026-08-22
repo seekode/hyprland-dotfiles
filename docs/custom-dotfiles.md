@@ -37,6 +37,20 @@ You can find what to change at hl.monitor and hl.workspace_rule.
 - no_blur: false
 - no_shadow: false
 
+---
+
+**Utility windows:**
+- float: true
+- center: true
+- size: { 1280, 720 }
+
+---
+
+**Android emulators:**
+- float: true
+- no_blur: true
+- immediate: true
+
 ## [dot_config/hypr/custom/execs.lua](../dot_config/hypr/custom/execs.lua)
 
 **Audio setup:** *uncomment it or edit it to match with your audio setup*
