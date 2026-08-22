@@ -21,5 +21,19 @@ hl.config({
       touchpad = {
         natural_scroll = false
       }
-    }
+    },
+    decoration = {
+      active_opacity = 0.93,
+      inactive_opacity = 0.88,
+
+      blur = {
+        enabled = true,
+        size = 6,
+        passes = 5,
+        vibrancy = 0.2,
+        noise = 0.2,
+        contrast = 1.5,
+        brightness = 1
+      }
+  }
 })

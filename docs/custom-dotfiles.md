@@ -27,6 +27,16 @@
 Do not forget to adapt these settings to your own configuration.
 You can find what to change at hl.monitor and hl.workspace_rule.
 
+---
+
+**decoration:** *Set opacity and blur for every windows*
+
+## [dot_config/hypr/custom/rules.lua](../dot_config/hypr/custom/rules.lua)
+
+**Global windows rules:**
+- no_blur: false
+- no_shadow: false
+
 ## [dot_config/hypr/custom/execs.lua](../dot_config/hypr/custom/execs.lua)
 
 **Audio setup:** *uncomment it or edit it to match with your audio setup*
