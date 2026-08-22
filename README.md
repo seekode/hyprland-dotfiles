@@ -16,8 +16,10 @@ chezmoi init --apply [https://github.com/seekode/hyprland-dotfiles.git](https://
 ```
 
 ### What this does:
-1. Installs `end-4` Base Setup: Detects if `quickshell` is present; if missing, runs the official `end-4` installer script (`run_once_before_install_end4.sh`).
-2. Deploys Custom Hyprland Config: Copies `dot_config/hypr/custom/` to `~/.config/hypr/custom/`. [You can get an overview of the customizations here](docs/custom-dotfiles.md).
+1. **Installs `end-4` Base Setup:** Detects if `quickshell` is present; if missing, runs the official `end-4` installer script (`run_once_before_install_end4.sh`).
+2. **Deploys Custom Hyprland Config:** Copies `dot_config/hypr/custom/` to `~/.config/hypr/custom/`. [You can get an overview of the customizations here](docs/custom-dotfiles.md).
+3. **Installs Extra Packages & Defaults:** Ensures additional packages are installed and configures them as default apps. [You can view the list of extra packages here](docs/extra-packages.md).
+
 
 ## 📖 Optional Guides
 - [AI Widget Configuration (Add latest Gemini models)](docs/ai-widget.md)
