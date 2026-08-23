@@ -10,7 +10,7 @@
                 "key_get_link": "https://openrouter.ai/settings/keys",
                 "key_id": "openrouter",
                 "model": "deepseek/deepseek-r1-distill-llama-70b:free",
-                "name": "Custom: DS R1 Dstl. LLaMA 70B",
+                "name": "LLaMA 70B",
                 "requires_key": true
             }
         ],
@@ -31,7 +31,7 @@
         },
         "palette": {
             "accentColor": "",
-            "type": "scheme-fidelity"
+            "type": "auto"
         },
         "transparency": {
             "automatic": true,
@@ -172,7 +172,7 @@
             "showScreenRecord": false,
             "showScreenSnip": false
         },
-        "verbose": true,
+        "verbose": false,
         "vertical": false,
         "weather": {
             "city": "Thourotte",
@@ -200,7 +200,7 @@
         "suspend": 3
     },
     "calendar": {
-        "locale": "en-GB"
+        "locale": "fr-FR"
     },
     "cheatsheet": {
         "fontSize": {
@@ -215,7 +215,7 @@
     },
     "conflictKiller": {
         "autoKillNotificationDaemons": false,
-        "autoKillTrays": false
+        "autoKillTrays": true
     },
     "crosshair": {
         "code": "0;P;d;1;0l;10;0o;2;1b;0"
@@ -229,7 +229,12 @@
         ],
         "monochromeIcons": false,
         "pinnedApps": [
-            "kitty"
+            "kitty",
+            "org.kde.dolphin",
+            "org.kde.kdeconnect.sms",
+            "eu.betterbird.betterbird",
+            "brave-browser",
+            "anytype"
         ],
         "pinnedOnStartup": false
     },
@@ -328,7 +333,7 @@
         "enable": true,
         "orderBottomUp": false,
         "orderRightLeft": false,
-        "rows": 2,
+        "rows": 1,
         "scale": 0.1
     },
     "panelFamily": "ii",
@@ -409,13 +414,13 @@
             "clicklessCornerVerticalOffset": 0,
             "cornerRegionHeight": 5,
             "cornerRegionWidth": 250,
-            "enable": true,
+            "enable": false,
             "valueScroll": true,
             "visualize": false
         },
         "keepRightSidebarLoaded": true,
         "quickSliders": {
-            "enable": false,
+            "enable": true,
             "showBrightness": true,
             "showMic": false,
             "showVolume": true
@@ -477,8 +482,8 @@
     },
     "tray": {
         "filterPassive": true,
-        "invertPinnedItems": true,
-        "monochromeIcons": false,
+        "invertPinnedItems": false,
+        "monochromeIcons": true,
         "pinnedItems": [
             "Fcitx"
         ],
