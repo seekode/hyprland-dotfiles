@@ -7,6 +7,9 @@
 **SUPER + CTRL + [num]:** Move window to workspace [num] silently
 **SUPER + SHIFT + [num]:** Move window to workspace [num] and follow
 
+**SUPER + CTRL + SHIFT + S:** Take a screenshot of a selected area and open it in Swappy for editing
+**SUPER + SHIFT + D:** Start Wayscriber to draw on the screen
+
 ## [dot_config/hypr/custom/general.lua](../dot_config/hypr/custom/general.lua)
 
 **Keyboard:** *though for coding and write french*
@@ -64,3 +67,4 @@ You can find what to change at hl.monitor and hl.workspace_rule.
 - start kdeconnectd
 - start wayscriber
 - start betterbird
+- start wayscriber

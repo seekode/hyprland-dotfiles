@@ -10,3 +10,4 @@ for i = 1, 10 do
 end
 
 hl.bind("SUPER + CTRL + SHIFT + S", hl.dsp.exec_cmd("grim -g \"$(slurp)\" - | swappy -f -"), { description = "Utilities: Screen snip >> Swappy" })
+hl.bind("SUPER + SHIFT + D", hl.dsp.exec_cmd("wayscriber --active"), { description = "Utilities: Draw on screen (Wayscriber)" })

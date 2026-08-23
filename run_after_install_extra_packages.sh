@@ -12,6 +12,7 @@ PACKAGES=(
     "kimageformats"
     "konsole"
     "kdeconnect"
+    "wayscriber"
 )
 
 AUR_PKGS=(
