@@ -68,3 +68,7 @@ You can find what to change at hl.monitor and hl.workspace_rule.
 - start wayscriber
 - start betterbird
 - start wayscriber
+
+## [dot_config/hypr/custom/variables.lua](../dot_config/hypr/custom/variables.lua)
+
+**codeEditor:** *zeditor*
